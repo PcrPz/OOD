@@ -1,0 +1,5 @@
+print("*** Rabbit & Turtle ***")
+d, vr, vt, vf =input("Enter Input : ").split()
+dt = int(d)/(int(vt)-int(vr))
+all=dt*int(vf)
+print(f"{all:.2f}")
